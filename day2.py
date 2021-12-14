@@ -1,6 +1,6 @@
 import re
 
-with open("day2.txt") as f:
+with open("data/day2.txt") as f:
     data = f.read()
     pos = data.splitlines()
 

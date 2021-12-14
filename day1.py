@@ -1,4 +1,4 @@
-with open("day1.txt") as f:
+with open("data/day1.txt") as f:
     data = f.read()
     depths_raw = data.splitlines()
     depths = list(map(int, depths_raw))

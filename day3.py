@@ -1,6 +1,4 @@
-from functools import reduce
-
-with open("day3.txt") as f:
+with open("data/day3.txt") as f:
     data = f.read()
     power = data.splitlines()
 

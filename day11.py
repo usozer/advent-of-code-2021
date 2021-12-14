@@ -1,6 +1,6 @@
 import numpy as np
 
-with open("day11.txt") as f:
+with open("data/day11.txt") as f:
     data = f.read()
     raw = data.splitlines()
 

@@ -1,7 +1,7 @@
 import numpy as np
 import re
 
-with open("day5.txt") as f:
+with open("data/day5.txt") as f:
     data = f.read()
     coords = data.splitlines()
 

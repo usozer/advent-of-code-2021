@@ -1,6 +1,6 @@
 import re
 
-with open("day8.txt") as f:
+with open("data/day8.txt") as f:
     data = f.read()
     raw = data.splitlines()
 

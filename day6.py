@@ -1,7 +1,7 @@
 import numpy as np
 from collections import Counter
 
-with open("day6.txt") as f:
+with open("data/day6.txt") as f:
     data = f.read()
     raw = data.split(",")
 

@@ -1,6 +1,6 @@
 import numpy as np
 
-with open("day4.txt") as f:
+with open("data/day4.txt") as f:
     data = f.read()
     bingo = data.splitlines()
 

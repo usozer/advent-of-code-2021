@@ -1,4 +1,4 @@
-with open("day10.txt") as f:
+with open("data/day10.txt") as f:
     data = f.read()
     raw = data.splitlines()
 
