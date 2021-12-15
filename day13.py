@@ -50,11 +50,13 @@ folded = grid.copy()
 
 for fold in folds:
     if fold[1] == "ver":
+        # Reverse left half of grid
         half1 = folded[:, 0:fold[0]]
         half2 = np.flip(folded[:, (fold[0]+1):], 1)
         
         folded = half1 + half2
     elif fold[1] == "hor":
+        # Reverse bottom half of grid
         half1 = folded[0:fold[0], :]
         half2 = np.flip(folded[(fold[0]+1):, :], 0)
         
